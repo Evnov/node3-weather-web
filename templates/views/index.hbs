@@ -10,16 +10,21 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <p class="sub-title">Please Enter a Location</p>
+        <p class="sub-title-1">Please Enter a Location</p>
         <form>
             <input placeholder="Location">
             <button>Search</button>
         </form>
-        <hr style="height:1px;border:none;border-top:1px solid #555555;" />
-        <p class="sub-title">Location</p>
-        <p id="message-1" class="content"></p>
-        <p class="sub-title">Weather Info</p>
-        <p id="message-2" class="content"></p>
+        {{!-- <hr style="height:1px;border:none;border-top:1px solid #eeeeee;" /> --}}
+        <div class="block">
+            <p class="sub-title-2">Location</p>
+            <p id="message-1" class="content"></p>
+        </div>
+        <div class="block">
+            <p class="sub-title-2">Weather Info</p>
+            <p id="message-2" class="content"></p>
+        </div>
+    </div>
 
     </div>
     {{>footer}}

@@ -9,10 +9,13 @@ body {
   flex-direction: column;
 
   min-height: 100vh;
+
+  background-image: url("../img/background_trees.jpg");
+  background-size: cover;
 }
 
 footer {
-  color: #888888;
+  color: white;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 6px 0;
@@ -29,7 +32,7 @@ h1 {
   font-size: 64px;
   margin-bottom: 16px;
   font-family: "Courier New", Courier, monospace;
-  color: cornflowerblue;
+  color: rgb(104, 160, 104);
 }
 
 header a {
@@ -48,47 +51,60 @@ header a {
 }
 
 input {
-  border: 1px solid lightblue;
+  border: 1px solid rgb(104, 160, 104);
   padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
   font-size: 14px;
-  background-color: lightblue;
+  background-color: rgb(104, 160, 104);
   width: 150px;
   height: 30px;
   color: white;
   border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 button {
   cursor: pointer;
   padding: 5px;
-  border: 1px solid #cccccc;
+  border: 2px solid rgb(104, 160, 104);
   height: 40px;
   width: 80px;
-  background-color: white;
+  background-color: unset;
+  color: rgb(104, 160, 104);
   font-size: 14px;
   border-radius: 5px;
   font-family: "Courier New", Courier, monospace;
 }
 
-.sub-title {
+.sub-title-1 {
   /* font-family: "Courier New", Courier, monospace; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
-  color: rgb(124, 162, 231);
+  font-size: 23px;
+  color: #888888;
   font-style: bold;
 }
 
+.sub-title-2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 23px;
+  color: rgb(104, 160, 104);
+  font-style: bold;
+}
+.block {
+  min-height: 100px;
+}
 .content {
-  font-size: 14px;
-  color: #888888;
+  font-size: 16px;
+  /* color: #888888; */
+  color: white;
   margin-top: 10px;
   font-style: italic;
+  font-weight: bold;
   font-family: "Courier New", Courier, monospace;
 }
 
 .paragraph {
-  font-size: 14px;
+  font-size: 18px;
   color: #888888;
   margin-top: 10px;
   font-family: "Courier New", Courier, monospace;
